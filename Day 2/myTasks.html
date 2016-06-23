@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="myTasks.css" rel="stylesheet" type="text/css" />
+	<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="myTasks.js"></script>
+	<title>Productivity</title>
+</head>
+<body>
+	<div id="navbar">
+    		<!-- <div class="home">
+    			<ol>Productivity</ol>
+    		</div> -->
+    		<div class="lists">
+	    		<ul>
+	    			<li id="home"><a href="#">Productivity</a></li>
+	    			<li><a href="#">Login</a></li>
+	    			<li><a href="#">Sign Up</a></li>
+	    			<li><a href="#">Share</a></li>
+	    			<li><a href="#">Leads</a></li>
+	    		</ul>
+	    	</div>
+    		<!--img src="http://www.clipartbest.com/cliparts/niE/9aB/niE9aB6iA.png"-->
+    </div>
+	<div class="container">
+		<h1>My Tasks</h1>
+		<hr/>
+	
+		<div class="row" id="search-bar">
+			<div class="col-md-10">
+				<input type="text" class="form-control input-lg " id="message" placeholder="Type in your message">
+			</div>
+			<div class="col-md-2">
+				<button type="submit" id="post-btn" class="btn btn-primary btn-lg btn-block">Post</button>
+			</div>
+		</div>
+
+		<div id="wall">
+			
+		</div>
+		
+	</div>
+</body>
+
+<templates style="display: none">
+	<div class="row contact-row">
+	</div>
+	<div class="contact col-md-4 text-center">
+		<img class="img-circle" src="">
+		<br/>
+		<h3>
+		<span class="name"></span><br/>
+		<span class="location"></span><br/>
+		<span class="email"></span>
+		</h3>
+	</div>
+</templates>
+
+</html>
